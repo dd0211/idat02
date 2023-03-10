@@ -1,0 +1,46 @@
+section {
+    padding-top: 120px;
+}
+.slider-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.slider {
+    background-image: url(../Imagenes/s.webp);
+    background-size: cover;
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 .25rem .5rem #21212126;
+    border-radius: .5rem;
+    animation: animate 30s infinite;
+}
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+@keyframes animate {
+    20% {
+        background-image: url(../Imagenes/n.jpg);
+        background-size: cover;
+    }
+    40% {
+        background-image: url(../Imagenes/x.webp);
+        background-size: cover;
+    }
+    60% {
+        background-image: url(../Imagenes/fondo_play.jpg);
+        background-size: cover;
+    }
+    80% {
+        background-image: url(../Imagenes/fondo.webp);
+        background-size: cover;
+    }
+    100% {
+        background-image: url(../Imagenes/s.webp);
+        background-size: cover;
+    }
+}

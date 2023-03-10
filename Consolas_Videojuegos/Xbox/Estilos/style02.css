@@ -1,0 +1,65 @@
+@media (min-width: 0px) and (max-width: 767px) {
+    body {
+    font-family: 'Press Start 2P', cursive;
+    }
+    div {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 90px;
+    }
+    #xbox {
+        background-color: green;
+        color: white;
+    }
+    h2 {
+        text-align: center;
+        padding: 3px;
+    }
+    img {
+        width: 30%;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    body {
+        font-family: 'Press Start 2P', cursive;
+    }
+    div {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 90px;
+    }
+    #xbox {
+        background-color: green;
+        color: white;
+    }
+    h2 {
+        text-align: center;
+        padding: 3px;
+        
+    }
+    img {
+        width: 30%;
+    }
+}
+@media (min-width: 991px) {
+    body {
+        font-family: 'Press Start 2P', cursive;
+    }
+    div {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 90px;
+    }
+    #xbox {
+        background-color: green;
+        color: white;
+    }
+    h2 {
+        text-align: center;
+        padding: 3px;
+        
+    }
+    img {
+        width: 30%;
+    }
+}

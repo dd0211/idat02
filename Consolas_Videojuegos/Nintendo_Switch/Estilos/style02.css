@@ -1,0 +1,19 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+div {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+#nintendo {
+    background-color: red;
+    color: white;
+}
+h2 {
+    text-align: center;
+    padding: 2px;
+}
+img {
+    width: 20%;
+}

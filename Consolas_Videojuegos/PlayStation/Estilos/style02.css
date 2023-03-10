@@ -1,0 +1,19 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+div {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 90px;
+}
+#play {
+    background-color: blue;
+    color: white;
+}
+h2 {
+    text-align: center;
+    padding: 3px;
+}
+img {
+    width: 30%;
+}

@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+@media (min-width: 0px) and (max-width: 511px) {
+    footer {
+        background-color: black;
+        color: white;
+        padding: 18px;
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+        box-sizing: border-box;
+    }
+    span {
+        font-size: 15px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: red;  
+    }
+    a:active {
+        color: yellow;
+    }
+    div.grid-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        padding: 20px;
+    }
+    #title {
+        font-size: 10px;
+    }
+    ul.header {
+        text-align: center;
+    }
+    nav.s1{
+        display: flex;
+        padding-bottom: 18px;
+    }
+    .d1 {
+        padding: 0px; 
+    }
+    div.d2 {
+        padding: 9px;
+    }
+    li {
+        padding: 5px;
+        font-size: 6px;
+    }
+}
+@media (min-width: 512px) and (max-width: 689px) {
+    footer {
+        background-color: black;
+        color: white;
+        padding: 18px;
+        bottom: 0;
+        position: fixed;
+        box-sizing: border-box;
+    }
+    span {
+        font-size: 15px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: red;  
+    }
+    a:active {
+        color: yellow;
+    }
+    div.grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        padding: 20px;
+    }
+    #title {
+        font-size: 8px;
+    }
+    ul.header {
+        text-align: center;
+    }
+    nav.s1{
+        display: flex;
+        padding-bottom: 18px;
+    }
+    .d1 {
+        padding: 0px; 
+    }
+    div.d2 {
+        padding: 9px;
+    }
+    li {
+        padding: 5px;
+        font-size: 6px;
+    }
+}
+@media (min-width: 690px) and (max-width: 1056px) {
+    footer {
+        background-color: black;
+        color: white;
+        padding: 18px;
+        bottom: 0;
+        box-sizing: border-box;
+        position: fixed;
+        width: 100%;
+    }
+    span {
+        font-size: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: red;  
+    }
+    a:active {
+        color: yellow;
+    }
+    div.grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+        padding: 20px;
+    }
+    ul.header {
+        text-align: center;
+    }
+    nav.s1{
+        display: flex;
+    }
+    .d1 {
+        padding: 0px; 
+    }
+    div.d2 {
+        padding: 4px;
+    }
+    li {
+        padding: 4px;
+        font-size: 6px;
+    }
+}
+@media (min-width: 1057px) and (max-width: 1272px) {
+    footer {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        bottom: 0;
+        box-sizing: border-box;
+        position: fixed;
+        width: 100%;
+    }
+    span {
+        font-size: 15px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: red;  
+    }
+    a:active {
+        color: yellow;
+    }
+    div.grid-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1.5fr;
+        gap: 100px;
+        padding: 20px;
+    }
+    ul.header {
+        text-align: center;
+    }
+    nav.s1{
+        display: flex;
+    }
+    .d1 {
+        padding: 4px; 
+    }
+    div.d2 {
+        padding: 7px;
+    }
+    li {
+        padding: 3px;
+        font-size: 8px;
+    }
+}
+@media (min-width: 1273px) {
+    footer {
+        background-color: black;
+        color: white;
+        padding: 4px;
+        bottom: 0;
+        position: fixed;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    span {
+        font-size: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: red;  
+    }
+    a:active {
+        color: yellow;
+    }
+    div.grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 100px;
+        padding: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    ul.header {
+        text-align: center;
+    }
+    nav.s1{
+        display: flex;
+    }
+    .d1 {
+        padding: 4px; 
+    }
+    div.d2 {
+        padding: 9px;
+    }
+    li {
+        padding: 3px;
+        font-size: 9px;
+    }
+}

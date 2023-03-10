@@ -1,0 +1,136 @@
+@media (min-width: 0px) and (max-width: 689px) {
+    body {
+        font-family: 'Press Start 2P', cursive;
+    }
+    img {
+        height: 150px;
+        border-radius: 30px;
+        padding-bottom: 10px;
+    }
+    a {
+        text-decoration: none;
+        padding-bottom: 15px;
+    }
+    .nav {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .top {
+        padding-top: 15vh;
+        padding-bottom: 8vh;
+        text-align: center;
+        justify-content: space-around;
+    }
+    #play {
+        font-size: 9px;
+        padding: 6px;
+        background-color: rgb(16, 16, 233);
+        color: white;
+        border-radius: 60px;
+    }
+    #xbox {
+        font-size: 9px;
+        padding: 6px;
+        background-color: rgb(26, 134, 22);
+        color: white;
+        border-radius: 60px;
+    }
+    #nintendo {
+        font-size: 9px;
+        padding: 6px;
+        background-color: rgb(163, 27, 38);
+        color: white;
+        border-radius: 60px;
+    }
+}
+@media (min-width: 690px) and (max-width: 990px) {
+    body {
+        font-family: 'Press Start 2P', cursive;
+    }
+    div.top {
+        text-align: center;
+        gap: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    img {
+        height: 200px;
+        border-radius: 30px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .top {
+        padding-top: 25vh;
+    }
+    .div {
+        padding-top: 15px;
+    }
+    #play {
+        font-size: 12px;
+        padding: 6px;
+        background-color: rgb(16, 16, 233);
+        color: white;
+        border-radius: 60px;
+    }
+    #xbox {
+        font-size: 12px;
+        padding: 6px;
+        background-color: rgb(26, 134, 22);
+        color: white;
+        border-radius: 60px;
+    }
+    #nintendo {
+        font-size: 12px;
+        padding: 6px;
+        background-color: rgb(163, 27, 38);
+        color: white;
+        border-radius: 60px;
+    }
+}
+@media (min-width: 991px) {
+    body {
+        font-family: 'Press Start 2P', cursive;
+    }
+    div.top {
+        padding-top: 25vh;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    img {
+        height: 250px;
+        border-radius: 30px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .top {
+        padding-top: 6%;
+    }
+    .div {
+        padding-top: 15px;
+    }
+    #play {
+        font-size: 18px;
+        padding: 6px;
+        background-color: rgb(16, 16, 233);
+        color: white;
+        border-radius: 60px;
+    }
+    #xbox {
+        font-size: 18px;
+        padding: 6px;
+        background-color: rgb(26, 134, 22);
+        color: white;
+        border-radius: 60px;
+    }
+    #nintendo {
+        font-size: 18px;
+        padding: 6px;
+        background-color: rgb(163, 27, 38);
+        color: white;
+        border-radius: 60px;
+    }
+}

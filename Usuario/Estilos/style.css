@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.logo {
+    top: 8px;
+    left: 8px;
+    position: fixed;
+}
+div.logo img{
+    width: 50%;
+    height: 40%;
+    border-radius: 9px 9px;
+}
+div.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 12px;
+}
+div.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+div.login form {
+    font-size: 20px;
+}
+div.login form .form-group {
+    margin-bottom: 12px;
+}
+div.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}

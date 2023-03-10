@@ -1,0 +1,52 @@
+@media (min-width: 0px) and (max-width: 767px) {
+    img {
+        width: 200px;
+    }
+    div {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    section {
+        padding-top: 15px;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    img {
+        width: 300px;
+    }
+    div {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    section {
+        padding-top: 50px;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+@media (min-width: 991px) {
+    img {
+        width: 600px;
+    }
+    div {
+        text-align: center;
+    }
+    section {
+        padding-top: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    #fun {
+        padding: 50px;
+    }
+    #ban {
+        padding: 50px;
+    }
+}

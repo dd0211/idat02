@@ -1,0 +1,197 @@
+@media (min-width: 0px) and (max-width: 689px) {
+    div.tiendas {
+        display: grid;
+        place-items: center;
+    }
+    .tiendas div {
+        padding-bottom: 3vh;
+    }
+    section {
+        padding-top: 22vh;
+        padding-bottom: 10vh;
+    }
+    h2 {
+        font-size: 14px;
+        color: rgb(189, 32, 32);
+    }
+    nav.tienda1 {
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(218, 86, 86);
+        padding: 10px;
+    }
+    nav.tienda2 {
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(218, 86, 86);
+        padding: 10px;
+    }
+    ul.ul {
+        padding: 8px;
+    }
+    #span {
+        font-size: 15px;
+    }
+    #li {
+        padding: 6px;
+        font-size: 9px;
+    }
+}
+@media (min-width: 689px) and (max-width: 1087px) {
+    div.tiendas {
+        display: grid;
+        place-items: center;
+    }
+    .tiendas div {
+        padding-bottom: 3vh;
+    }
+    section {
+        padding-top: 22vh;
+    }
+    h2 {
+        font-size: 18px;
+        color: rgb(189, 32, 32);
+    }
+    nav.tienda1 {
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(218, 86, 86);
+        padding: 10px;
+    }
+    nav.tienda2 {
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(218, 86, 86);
+        padding: 10px;
+    }
+    ul.ul {
+        padding: 8px;
+    }
+    #span {
+        font-size: 15px;
+    }
+    #li {
+        padding: 6px;
+        font-size: 11px;
+    }
+}
+@media (min-width: 1088px) and (max-width: 1100px) {
+    div.tiendas {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    section {
+        padding-top: 30vh;
+    }
+    h2 {
+        font-size: 18px;
+        color: rgb(189, 32, 32);
+    }
+    nav.tienda1 {
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(218, 86, 86);
+        padding: 10px;
+    }
+    nav.tienda2 {
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(218, 86, 86);
+        padding: 10px;
+    }
+    ul.ul {
+        padding: 8px;
+    }
+    #span {
+        font-size: 15px;
+    }
+    #li {
+        padding: 6px;
+        font-size: 11px;
+    }
+}
+@media (min-width: 1101px) and (max-width: 1272px) {
+    div.tiendas {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    section {
+        padding-top: 30vh;
+    }
+    h2 {
+        font-size: 18px;
+        color: rgb(189, 32, 32);
+    }
+    nav.tienda1 {
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(218, 86, 86);
+        padding: 10px;
+    }
+    nav.tienda2 {
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(218, 86, 86);
+        padding: 10px;
+    }
+    ul.ul {
+        padding: 8px;
+    }
+    #span {
+        font-size: 15px;
+    }
+    #li {
+        padding: 6px;
+        font-size: 11px;
+    }
+}
+@media (min-width: 1273px) {
+    div.tiendas {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    section {
+        padding-top: 30vh;
+    }
+    h2 {
+        font-size: 18px;
+        color: rgb(189, 32, 32);
+    }
+    nav.tienda1 {
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(218, 86, 86);
+        padding: 10px;
+    }
+    nav.tienda2 {
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(218, 86, 86);
+        padding: 10px;
+    }
+    ul.ul {
+        padding: 8px;
+    }
+    #span {
+        font-size: 15px;
+    }
+    #li {
+        padding: 6px;
+        font-size: 11px;
+    }
+}
+
+
+
+
+
